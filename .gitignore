@@ -1,2 +1,4 @@
-.DS_Store
 .history
+*.ipynb_checkpoints
+*.DS_store
+*/.ipynb_checkpoints/*
