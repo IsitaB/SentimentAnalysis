@@ -1,10 +1,22 @@
-# Sentiment Analysis: charlotte
+# Sentiment Analysis
 
-## SVM 1
+## Preprocessing
+
+### Charlotte
+
+I believe BERT's tokenizer might work well with less preprocessing. I couldn't find a decent way to translate abbreviations or fix misspellings, which appears to be a non-trivial task.
+
+1. Remove special tags and Twitter mentions
+2. Unescape HTML
+3. Keep only characters, numbers, and single quotes
+
+## SVMs
+
+### SVM 1
 
 I started trying to using Natural Language Toolkit (NLTK) to normalize text and feed it into an svm, but I decided to move on to using BERT.
 
-## SVM 2
+### SVM 2
 
 Uses DistilBERT to classify sentences, which is then fed into an SVM to determine the sentiment.
 
