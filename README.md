@@ -23,3 +23,7 @@ Uses DistilBERT to classify sentences, which is then fed into an SVM to determin
 BERT was limited by the number of tokens it can process at a time, so I had to use a dataset with short text samples. It should then be possible to classify arbitrary length text by splitting it up.
 
 The dataset I used was had positive and negative labels, not specifically hateful and not hateful.
+
+### SVM 3
+
+Same as SVM 2, except using `data/cleandata/twitter-c.csv` for training and some other minor improvements.
